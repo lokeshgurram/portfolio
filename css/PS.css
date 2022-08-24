@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav li
+{ 
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;   
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.loki:hover
+{
+    background-color: #495D9e;
+}
+
+.nav_color
+{
+    background-color: #C8D3F1;
+}
+
+h3
+{
+    font-family: 'Scada', sans-serif; 
+    color:white;
+}
+
+.hl
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+#head
+{
+    background-color:#495D9e; 
+}
+
+#education      
+{
+    background-color: #493D9E;
+}
+
+#home
+{
+    background-color:#495D9e;
+}
+
+#constraction
+{
+    background-color:#C8D3F1;
+}
+
+#shoes
+{
+    background-color:#493D9E ;
+}
+
+#trips
+{
+    background-color: #C8D3F1;
+}
+
+#services
+{
+    background-color:#495D9e ;
+}

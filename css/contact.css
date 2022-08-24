@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav li
+{ 
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;   
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.loki:hover
+{
+    background-color: #495D9e;
+}
+
+.nav_color
+{
+    background-color: #C8D3F1;
+}
+
+.contact_color
+{
+    background-color: #493D9E;
+}
+
+h4, h3, p
+{
+    color:white;
+}
+
+.input_space
+{
+    border:none;
+    border-radius: 20px;
+}
+
+textarea
+{
+    margin-right:55px;
+}
+
+.but
+{
+    border:none;
+    border-radius: 20px;
+    color:#35436d;
+    width:200px;
+    padding:8px;
+}
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    .input_space 
+    {
+        margin: 5px;
+    }
+
+    textarea
+    {
+       width:198px;
+       margin: 5px;
+    }
+}

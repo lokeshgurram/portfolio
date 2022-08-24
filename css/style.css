@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav li
+{ 
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;   
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.loki:hover
+{
+    background-color: #495D9e;
+}
+
+.nav_color
+{
+    background-color: #C8D3F1;
+}
+
+.banner 
+{
+    background-image: url(../assets/images/14.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:650px;
+    object-fit: cover;
+    animation-name: banner;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+} 
+  
+.text
+{
+    font-size: 30px;
+    font-family: 'Scada', sans-serif; 
+    padding-top:35%;
+    margin-left:1%;
+    color:white;
+}
+
+.designation
+{
+    background-color: cornflowerblue;
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;
+    color:white;
+    margin-left:4%;
+    width:22%;
+}
+
+.about_color
+{
+    background-color: #495D9e;
+}
+
+.about
+{
+    margin-top:80px;
+}
+
+.profile
+{
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+td
+{
+    font-family: 'Scada', sans-serif;
+    color:white;   
+}
+
+h1, h3, h5
+{
+    color:white;
+    text-align: center;
+}
+
+.services_color
+{
+    background-color: #C8D3F1;
+}
+
+.contact_color
+{
+    background-color: #35436d;
+}
+
+h4, p
+{
+    color: white;
+    font-family: 'Scada', sans-serif; 
+}
+
+.input_space
+{
+    border:none;
+    border-radius: 20px;
+}
+
+textarea
+{
+    margin-right:55px;
+}
+
+.input_space::placeholder
+{
+    text-align: center;
+}
+
+.but
+{
+    border-radius: 20px;
+    color:#35436d;
+    width:200px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.but:hover
+{
+    background-color: black;
+    color:white;
+    border: none;
+}
+
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    .banner
+    {
+       height:250px;
+       object-fit: cover;
+    }
+
+    .text
+    {
+    font-size:12px;
+    padding-top:50%;
+    }
+
+    .designation
+    {
+    font-size:12px;
+    margin-left:2%;
+    width:35%;
+    padding:3px;
+    }
+
+    .profile
+    {
+        width:100px;
+        height:100px;
+        object-fit: cover;
+        justify-content:center;
+    }
+
+    .about
+    {
+        margin-top: 0px;
+    }
+   
+    h1, h3, h5, h4
+    {
+        font-size: 12px;
+    }
+    
+    td
+    {
+        font-size: 12px;
+    }
+
+    .input_space 
+    {
+        margin: 5px;
+    }
+
+    textarea
+    {
+       width:198px;
+       margin: 5px;
+    }
+    
+}

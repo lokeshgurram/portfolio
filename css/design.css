@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav li
+{ 
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;   
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.loki:hover
+{
+    background-color: #495D9e;
+}
+
+.nav_color
+{
+    background-color: #C8D3F1;
+}
+
+.design_color
+{
+    background-color: #495D9e;
+}
+
+h3
+{
+    font-family: 'Scada', sans-serif; 
+}
+
+.deg
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.deg_2
+{
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+}
+
+.deg_1
+{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+}

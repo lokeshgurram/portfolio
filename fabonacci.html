@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+
+
+        <script>
+            let x = 0;
+            let y = 1;
+            let z;
+            let i;
+            let num = prompt('Enter limit to generate fabonacci no');
+
+            document.write(x + '<br>');
+            document.write(y + '<br>');
+
+            for(i=2; i<=num; i++)
+
+            {    
+                z = x+y;
+                x = y;
+                y = z;
+
+                document.write(z + '<br>');
+            }
+
+        </script>
+
+
+         <!-- <script>
+
+            let limit = 100;
+            let a = parseInt(prompt('Enter first number'));
+            let b = parseInt(prompt('Enter second number'));
+            let c = 0;
+
+            document.write('Fabonacci series upto' + limit + '<br>');
+            document.write(a + '' + b);
+
+            while(c<= limit)
+            {
+                c = a + b;
+                a = b;
+                b = c;
+
+                if (c <= limit) document.write(" " + c);
+            }
+        </script>  -->
+    </body>
+</html>

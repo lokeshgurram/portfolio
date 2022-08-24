@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav li
+{ 
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;   
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.loki:hover
+{
+    background-color: #495D9e;
+}
+
+.nav_color
+{
+    background-color: #C8D3F1;
+}
+
+.carrer_color
+{
+    background-color:#35436d;
+}
+
+.education_color
+{
+    background-color: #495D9e;
+}
+ 
+.skills_color
+{
+    background-color:#35436d;
+}
+
+h5
+{
+    color:white;
+}
+
+ .ai
+{
+    width:95%;
+    animation-name: i;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes i
+{
+    0%{width:0%;}
+    100%{width:95%;}
+}
+
+.ps
+{
+    width:100%;
+    animation-name: ap;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; 
+    animation-delay: 1s;
+}
+
+@keyframes ap
+{
+    0%{width:0%;}
+    100%{width:100%;}
+}
+
+.xd
+{
+    width:100%;
+    animation-name: ax;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes ax
+{
+    0%{width:0%;}
+    100%{width:100%;}
+}
+
+.html
+{
+    width:100%;
+    animation-name: ht;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes ht
+{
+    0%{width:0%;}
+    100%{width:100%;}
+}
+
+.css
+{
+    width:100%;
+    animation-name: cs;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes cs
+{
+    0%{width:0%;}
+    100%{width:100%;}
+}
+
+.bt
+{
+    width:100%;
+    animation-name: bs;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes bs
+{
+    0%{width:0%;}
+    100%{width:100%;}
+}
+
+.js
+{
+    width:90%;
+    animation-name: java;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes java
+{
+    0%{width:0%;}
+    100%{width:90%;}
+}
+
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    h1, h3, td, p
+    {
+        font-size: 12px;
+        margin:5px;
+    }
+
+    h5
+    {
+        font-size: 12px;
+        margin:5px;
+    }
+}
+
