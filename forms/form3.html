@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form5</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<style type="text/css">
+
+.container_bg
+{
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);;
+}
+	
+	td
+	{
+	font-family:poppins,sans-serif;
+	font-size:20px;
+	}
+
+	.p1
+	{
+	border:none;
+	border-radius:20px;
+	padding:10px;
+	text-align:center;
+	color:red;
+	}
+	
+	.p1::placeholder
+	{
+	color:blue;
+	}
+	
+	.p2
+	{
+	border:none;
+	border-radius:20px;
+	padding:10px;
+	text-align:center;
+	color:red;
+	}
+	
+	.p2::placeholder
+	{
+	color:blue;
+	}
+	
+	.p4
+	{
+	border:none;
+	border-radius:20px;
+	padding:10px;
+	text-align:center;
+	color:red;
+	}
+	
+	.p4::placeholder
+	{
+	color:blue;
+	}
+
+	.p5
+	{
+	border:none;
+	border-radius:20px;
+	padding:10px;
+	text-align:center;
+	color:red;
+	}
+	
+	.p5::placeholder
+	{
+	color:blue;
+	}
+	
+	select
+	{
+	border:none;
+	border-radius:15px;
+	padding:10px;
+	width:185px;
+	color:blue;
+	text-align:center;
+	}
+
+	.back
+	{
+		margin:50px;
+		font-size: 25px;
+	}
+
+	</style>
+	
+</head>
+<body>
+
+	<div class="back">
+		<a href="../development.html">Back</a>
+	</div>
+
+	<div class="container_bg">
+
+<form>
+
+	<div class="form-group">
+
+		<h3 class="text-center"> <b> <u> Registration Form </u> </b> </h3>
+
+<table class="table mt-lg-5"> 
+
+<tr>
+<td>First Name:</td>
+<td><input type="text" required  placeholder="Enter First Name"  class="p1 form-control"/></td>
+</tr>
+
+<tr>
+<td>Last Name:</td>
+<td><input type="text" placeholder="Enter Last Name" class="p2 form-control" /></td>
+</tr>
+
+<tr>
+<td>DOB:</td>
+<td><input type="date" class="form-control" /></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="text" placeholder="Enter Email" class="p4 form-control" /></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="text" placeholder="Enter Password" class="p5 form-control" /></td>
+</tr>
+
+<tr>
+<td>Qualification</td>
+<td>
+<select class="form-control">
+
+<option>B.Tech</option>
+<option>B.E</option>
+<option>B.Ed</option>
+<option>D.Ed</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="Male"/>Male <input type="radio" name="gender" value="Female" />Female <input type="radio" name="gender" value="Others"/>Others</td>
+</tr>
+
+<tr>
+<td>Language</td> 
+<td><input type="checkbox" />Telugu <input type="checkbox" />Hindi <input type="checkbox" />English</td>
+</tr>
+
+<tr>
+<td>Upload <br /> Resume</td>
+<td><input type="file" class="form-control" /></td>
+</tr>
+
+<tr>
+<td>Message</td>
+<td><textarea name="" id="" cols="50" rows="5" placeholder="Message"></textarea></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" /> By signing up, you agree to the <br> <u>play Term of Services</u></td>
+</tr>
+
+</table>
+
+<div class="text-center">
+	
+	<button class="btn btn-info btn-outline-muted">SUBMIT</button>
+		
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>

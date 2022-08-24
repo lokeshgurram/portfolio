@@ -1,0 +1,143 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+.bi
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.bd
+{
+    border-right: 1px solid black;
+}
+
+h5
+{
+    display: inline;
+    color:yellow;
+}
+
+h6
+{
+    display: inline;
+    color: white;
+}
+
+.head_color
+{
+    background-color: rgb(25, 25, 133);
+
+}
+
+.nav_color
+{
+    background-color: rgb(25, 25, 133);
+}
+
+.c1
+{
+    width:100%;
+    object-fit: cover;
+}
+
+.anews
+{
+    background-color: red;
+    color:white;
+}
+
+.tnews
+{
+    background-color: rgb(25, 25, 133);
+    color:white;
+}
+
+.n1
+{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+}
+
+.high
+{
+    border-right: 1px solid black;
+}
+
+.text
+{
+    border-bottom:1px solid black ;
+}
+
+.c2
+{
+    width:100%;
+    object-fit: cover;
+}
+
+.vd
+{
+    width:100%;
+    object-fit: cover;
+}
+
+.snip_color
+{
+    background-color:  rgb(25, 25, 133);
+    color:white;
+}
+
+.head
+{
+    background-color: purple;
+    color:white;
+    border-radius: 5px;
+
+}
+
+.footer_column_1
+{
+    width:200px;
+}
+
+.news2 
+{
+    margin-top: 45px;;
+}
+
+.pages li
+{
+    display: inline;
+    padding:1px;
+}
+
+.footer_img
+{
+    padding:5px;
+}
+
+.snippet_logo
+{
+    width: 150px;
+    object-fit: cover;
+}
+
+.links li
+{
+    display: inline;
+    list-style: none;
+}
+
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    .bi
+    {
+        width:300px;
+        object-fit: cover;
+    }
+    
+}

@@ -1,0 +1,181 @@
+.navbar-brand img
+{
+    width:30px;
+}
+
+.loki
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav li
+{
+	font-family: 'Poppins', sans-serif;
+    padding:20px;
+}
+
+.navbar-nav li :hover
+{
+    background-color:aqua;
+    color: white;
+}
+
+.banner
+{
+    background-image: url('media/images/2.jpg');
+    opacity:70%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width:100%;
+    height:250px;
+    overflow-x: hidden;
+}
+
+.banner_text
+{
+	font-family: 'Poppins', sans-serif;
+    padding:60px;
+    color:white;
+}
+
+.s1 pre
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+.s1 h5
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+.a1 img
+{
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.s2
+{
+    background-color: antiquewhite;
+}
+
+.a2 img
+{
+    display: flex;
+    margin: auto;
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    padding:20px;
+}
+
+.hd2
+{
+	font-family: 'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+}
+
+.t2
+{
+	font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.s3
+{
+    background-image: url('media/images/5.jpg');
+    opacity: 75%;
+    background-position: center;
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:100%;
+    height:400px;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
+.s3 h5
+{
+	font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin-top:100px;
+    padding:100px;   
+}
+
+.a4 img
+{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
+
+.a4 pre
+{
+    font-size:25px;
+	font-family: 'Poppins', sans-serif; 
+}
+
+.a4 p
+{
+    font-size:15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.s5
+{
+    background-image: url('media/images/7.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
+.s5 h5
+{
+    color: white;
+	font-family: 'Poppins', sans-serif;
+    margin-top: 150px;;
+}
+
+.s6
+{
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+.body-img
+{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.s6 p
+{
+	font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar-nav1, .links li
+{
+    list-style: none;
+} 
+
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    .body-img
+{
+    margin-top: 5px;
+    width:360px;
+    object-fit: cover;
+}
+}
