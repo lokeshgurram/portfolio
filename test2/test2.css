@@ -1,0 +1,137 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:#4f4e4e;
+	overflow-X:hidden
+}
+
+img
+{
+	width:75%;
+	height:1000%;
+	margin-left:25%;
+	object-fit:cover;
+}
+
+h1
+{
+	color:white;
+	font-size:50px;
+	transform:translate(18%,-500%);
+}
+
+h3
+{
+	color:white;
+	font-size:20px;
+	transform:translate(19%,-285px);
+}
+
+.web
+{
+	color:white;
+	font-size:20px;
+	transform:translate(17%, -150px);
+	
+}
+
+.about h5
+{
+	color:white;
+	font-size:20px;
+	transform:translate(17%);
+}
+
+.about p
+{
+	color:white;
+	transform:translate(40%, -20px);
+}
+
+.main
+{
+	color:white;
+	font-size:20px; 
+	transform:translate(17%, 165px);
+}
+
+.page img
+{
+	width:550px;
+	height:250px;
+	transform:translate(190px,140px);
+}
+
+ul
+{
+	display:flex;
+	justify-content:center;
+}
+
+ul li
+{
+	list-style:none;
+	display:inline;
+	font-size:20px;
+	padding:20px;
+    transform:translate(75px,-120px);
+}
+
+li:hover
+{
+	color:blue;
+}
+
+Button
+{
+	border:none;
+	border-radius:15px;
+	font-size:20px;
+	padding:3px;
+	transform:translate(975px, -166px);
+}
+.ban
+{
+	transform:translate(50%,-100px);
+}
+
+.view img
+{
+	border-radius:30px;
+	width:200px;
+	height:350px;
+	transform:translateX(-50px);
+}
+
+.review
+{
+	background-color:black;
+	width:550px;
+	height:500px;
+	transform:translate(527px, -328px);
+}
+
+.review h5
+{
+	color:white;
+	font-size:20px;
+	transform:translate(35px, 65px);
+}
+
+.review p
+{
+	color:white;
+	width:50%;
+	transform:translate(85%,40%);
+}
+
+.foot
+{
+	width:450px;
+	height:250px;
+	transform:translate(54%, -500px)
+}
